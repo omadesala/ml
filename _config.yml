@@ -1,6 +1,3 @@
-permalink: /:year/:month/:day/:title.html
-markdown: kramdown
-pygments: true
 
 kramdown:
   input: GFM
@@ -24,6 +21,9 @@ favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
 
 #项目配置
 baseurl: /ml 
+permalink: /:baseurl/:year/:month/:day/:title.html
+markdown: kramdown
+pygments: true
 
 # disqus 设置
 disqus:
